@@ -28,7 +28,7 @@ int main(){
 	  		//yes
 	  		if (B+C>A){
 	  			//yes
-	  			printf("chu vi cua hinh tam giac la: %d\n",P);
+	  			printf("chu vi hinh tam giac la: %d\n",P);
 	  			printf("dien tich hinh tam giac la: %f\n",S);
 			  }else{
 			  	//no
