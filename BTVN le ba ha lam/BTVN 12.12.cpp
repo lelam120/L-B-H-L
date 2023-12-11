@@ -20,7 +20,7 @@ int main(){
 	  P = A+B+C;
 	  
 	  float S;
-	  S = sqrt(P*(P-A)*(P-B)*(P-C));
+	  S = sqrt((P/2)*((P/2)-A)*((P/2)-B)*((P/2)-C));
 	  
 	  if (A+B>C){
 	  	//yes
