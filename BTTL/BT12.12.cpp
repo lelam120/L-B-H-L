@@ -20,13 +20,13 @@ int main(){
 	  	int D=pow(b,2)-4*a*c;
 	  	if (D>0||D==0){
 	  		if (D>0){
-	  			float x1=(-(float)b+sqrt(D))/2*(float)a;
-	  			float x2=(-(float)b-sqrt(D))/2*(float)a;
+	  			float x1=(-(float)b+sqrt(D))/(2*(float)a);
+	  			float x2=(-(float)b-sqrt(D))/(2*(float)a);
 	  			printf (" D>0, phuong trinh co 2 nghiem x1= %f va x2= %f\n",x1,x2);
 			  }else{
 			  	float x1;
 			  	float x2;
-			  	x1=x2=-(float)b/2*(float)a;
+			  	x1=x2=-(float)b/(2*(float)a);
 			  	printf ("D=0, phuong trinh co 1 nghiem x1=x2= %f\n",x1,x2);
 			  }
 		  }else{
