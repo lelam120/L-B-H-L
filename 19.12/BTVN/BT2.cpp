@@ -10,7 +10,7 @@ int main(){
      printf ("nhap so nguyen to b:");
      scanf ("%d",&b);
      
-     int GCD (a,b);
+     int GCD (int a,int b);
      
      int i;
 	  if (a>b){
@@ -19,7 +19,7 @@ int main(){
 	  	i=a;
 	  }    
     
-     while (i>=0){
+     while (a*b!=0){
      	if (a%i==0&&b%i==0){
      		printf ("uoc chung lon nhat cua a,b la: %d",i);
      		break;
