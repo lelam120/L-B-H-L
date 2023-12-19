@@ -19,7 +19,7 @@ int main(){
 	  	i=a;
 	  }    
     
-     while (i<=a&&i<=b){
+     while (i>=0){
      	if (a%i==0&&b%i==0){
      		printf ("uoc chung lon nhat cua a,b la: %d",i);
      		break;
