@@ -2,7 +2,7 @@
 
 int main() {
   int n;
-  printf("Nhap so phan mang la: ");
+  printf("Nhap so luong phan tu cua mang la: ");
   scanf("%d", &n);
 
   int arr[n];
